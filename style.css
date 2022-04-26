@@ -127,7 +127,7 @@
     right: 0;
     width: 157px;
     height: 37px;
-    background: rgba(0, 0, 0, .8) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
     border-radius: 0 0 12px 12px;
     z-index: -1;
 }
