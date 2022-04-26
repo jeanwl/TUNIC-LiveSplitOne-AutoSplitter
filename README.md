@@ -2,7 +2,7 @@
 
 ## Features
 
-- LiveSplit One timer control with custom splits
+- LiveSplit One control with custom splits
 - New LiveSplit One layout suggestion for OBS
 
 ## OBS Usage
