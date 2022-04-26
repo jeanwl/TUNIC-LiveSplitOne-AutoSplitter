@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400');
 
 :root {
-	--scale: 100;
-	--bottom: 290px;
-	--right: 50px;
-	--max-visible-splits: 20;
+    --scale: 100;
+    --bottom: 290px;
+    --right: 50px;
+    --max-visible-splits: 20;
 }
 
 .Toastify {
-	display: none;
+    display: none;
 }
 
-.layout-editor-inner-container + .layout-container {
-	display: none !important;
+.layout-editor-inner-container+.layout-container {
+    display: none !important;
 }
 
 .layout {
-	position: fixed;
+    position: fixed;
     bottom: var(--bottom);
     right: var(--right);
     text-shadow: none !important;
-	transform-origin: bottom right;
-	transform: scale(calc(var(--scale) / 100));
+    transform-origin: bottom right;
+    transform: scale(calc(var(--scale) / 100));
 }
 
 .splits {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     position: absolute;
     bottom: 108px;
     right: 0;
-	height: calc(var(--max-visible-splits) * 46px);
+    height: calc(var(--max-visible-splits) * 46px);
     overflow: hidden;
 }
 
@@ -46,7 +46,7 @@
     margin-top: 2px;
 }
 
-.current-split ~ .split {
+.current-split~.split {
     height: 0 !important;
     transition: none;
 }
@@ -57,7 +57,7 @@
 
 .split-first-row {
     right: 92px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 12px 0 0 12px;
 }
 
@@ -66,7 +66,7 @@
     width: 92px !important;
     height: 100% !important;
     justify-content: center !important;
-    background: rgba(0,0,0,0.95);
+    background: rgba(0, 0, 0, 0.95);
 }
 
 .split:first-of-type .split-second-row {
@@ -81,12 +81,15 @@
     padding: 0 !important;
 }
 
-.split-name, .timer-time {
+.split-name,
+.timer-time {
     font-family: Roboto;
     font-weight: 300;
 }
 
-.split-time, .key-value-key, .key-value-value {
+.split-time,
+.key-value-key,
+.key-value-value {
     font-family: Roboto;
     font-weight: 400;
 }
@@ -103,7 +106,7 @@
     right: 0;
     width: 157px;
     height: 100%;
-    background: rgba(0,0,0,0.95);
+    background: rgba(0, 0, 0, 0.95);
     border-radius: 12px 0 0 0;
     z-index: -1;
 }
@@ -124,7 +127,7 @@
     right: 0;
     width: 157px;
     height: 37px;
-    background: rgba(0,0,0,.8) !important;
+    background: rgba(0, 0, 0, .8) !important;
     border-radius: 0 0 12px 12px;
     z-index: -1;
 }
@@ -152,8 +155,19 @@
 }
 
 @keyframes cycle {
-    0% { opacity: 0; }
-    2% { opacity: 1; }
-    33% { opacity: 1; }
-    35% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+    }
 }
