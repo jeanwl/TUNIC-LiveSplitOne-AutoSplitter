@@ -1,4 +1,4 @@
-# TUNIC.LiveSplitOne.AutoSplitter
+# TUNIC LiveSplit One AutoSplitter
 
 ![Preview](/preview.gif)
 
