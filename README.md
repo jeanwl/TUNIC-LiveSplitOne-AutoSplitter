@@ -16,8 +16,8 @@
 
 2. Interact source ***(OBS browser import/input window might pop behind OBS application)***
     - Right-click/Left-click to toggle menu
+    - Import provided **LSOlayout.ls1l**, click save
     - Import your splits, click save
-    - Import provided LSOlayout.ls1l, click save
     - Update WR and PB values in Layout → Edit
 
 3. Edit splits.txt
