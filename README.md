@@ -1,5 +1,7 @@
 # TUNIC.LiveSplitOne.AutoSplitter
 
+![Preview](/preview.gif)
+
 ## Features
 
 - LiveSplit One control with custom splits
