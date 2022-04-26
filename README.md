@@ -11,19 +11,18 @@
 
 1. Add browser source
     - Set URL https://one.livesplit.org/
-    - Set size to full screen (currently only support 1920x1080)
-    - Apply provided Custom CSS
+    - Set size to full screen (ex: 1920x1080)
+    - Apply Custom CSS `@import url('https://jeanwll.github.io/TUNIC.LiveSplitOne.AutoSplitter/style.css');`
 
 2. Interact source ***(OBS browser import/input window might pop behind OBS application)***
     - Right-click/Left-click to toggle menu
     - Import your splits, click save
-    - Import provided layout, click save
+    - Import provided LSOlayout.lsl, click save
     - Update WR and PB values in Layout → Edit
-
 
 3. Edit splits.txt
     - Each line is a split condition, either a zone number or an event
-    - Order them according to your splits order
+    - Order them accordingly to your splits order
     - Zone numbers and events reference: https://github.com/just-ero/asl/blob/main/TUNIC/TUNIC.asl
 
 5. Start AutoSplitter.exe
@@ -43,6 +42,16 @@
 
 ## Additionnal notes
 
+You can specify custom CSS values below the `@import` in your Browser source Custom CSS:
+```css
+.layout {
+	--scale: 100;
+	--bottom: 290px;
+	--right: 50px;
+	--max-visible-splits: 20;
+}
+```
+
 Exporting splits won't work directly from OBS browser source.
 If you want to export splits to .lss you can:
 1. Copy content from
@@ -50,8 +59,3 @@ If you want to export splits to .lss you can:
 2. Paste to
 `%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_one.livesplit.org_0.indexeddb.leveldb`
 3. Export splits by browsing https://one.livesplit.org/ on chrome
-
-## Upcoming features
-
-- Custom CSS variables for **Scale** and **Max Visible Splits** 
-- More resolution support
