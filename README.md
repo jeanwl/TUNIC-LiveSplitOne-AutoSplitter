@@ -1,6 +1,6 @@
 # TUNIC LiveSplit One AutoSplitter
 
-TUNIC Livesplit One AutoSplitter with custom splits
+TUNIC Livesplit One AutoSplitter with customisable splits
 
 # Description
 
