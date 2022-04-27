@@ -2,6 +2,8 @@
 
 TUNIC Livesplit One AutoSplitter with customisable splits
 
+![Preview](/preview.gif)
+
 # Description
 
 This program allows TUNIC autosplitting on LiveSplit One Browser, which is CSS customisable unlike original LiveSplit.
