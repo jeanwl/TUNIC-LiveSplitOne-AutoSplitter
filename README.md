@@ -11,7 +11,7 @@ I suggest using [LiveSplit One OBS Layout](https://github.com/jeanwll/LiveSplitO
 # Usage
 
 1. Edit splits.txt
-    - Each line is a split condition, either [a zone number or an event](https://github.com/just-ero/asl/blob/main/TUNIC/TUNIC.asl)
+    - Each line is a split condition, either an [area number](https://github.com/jeanwll/TUNIC-LiveSplitOne-AutoSplitter/blob/main/Areas.md) or an [event](https://github.com/jeanwll/TUNIC-LiveSplitOne-AutoSplitter/blob/main/Events.md)
     - Order them accordingly to your splits order
 
 2. Start AutoSplitter.exe
