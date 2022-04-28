@@ -6,7 +6,7 @@ TUNIC Livesplit One AutoSplitter with customizable splits
 
 # Description
 
-This program allows TUNIC autosplitting on LiveSplit One Browser, which is CSS customisable unlike original LiveSplit.
+This program allows TUNIC autosplitting on LiveSplit One Browser, which is CSS customizable unlike original LiveSplit.
 
 I suggest using [LiveSplit One OBS Layout](https://github.com/jeanwll/LiveSplitOne-OBS-Layout) which was made alongside this project.
 
