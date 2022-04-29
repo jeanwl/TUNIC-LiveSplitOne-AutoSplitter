@@ -1,6 +1,6 @@
 # TUNIC LiveSplit One AutoSplitter
 
-TUNIC Livesplit One AutoSplitter with customizable splits
+Livesplit One AutoSplitter for the game TUNIC with customizable splits
 
 ![Preview](/preview.gif)
 
